@@ -1,0 +1,107 @@
+/* Global page and element settings ----------------------------------------------------- */
+body {
+  font-size: 16px;
+  font-family: "Open Sans", Arial, sans-serif;
+  background: #FFFFFF;
+}
+
+/* Format the nav  ---------------------------------------------------------- */
+
+.navbar-custom{
+    background-color: #001427;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+}
+
+
+.navbar-nav{
+    padding-left: 2rem;
+}
+
+.navbar-brand{
+  padding-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+
+.custom-toggler {
+  border-color: white;
+  color:white;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #ffffff
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-link{
+    color: #ffffff;
+}
+
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+    background-color: #9d0912
+}
+
+/* Setting Lines after headers */
+
+.separator {
+  position: relative;
+  margin: 0;
+  padding: 8px 0px 10px 0px;
+  vertical-align: middle;
+}
+
+.separator span {
+  background-color: white;
+  font-size: 1.7rem;
+  margin: 0;
+  padding-right: 0.5rem;
+  color: #153e90
+}
+
+.separator:after {
+  content: "";
+  position: absolute;
+  bottom: 43%;
+  left: 0;
+  right: 0;
+  border-bottom: 2px solid slategray;
+  z-index: -1;
+}
+
+/* --- Format the info section in index.html --- */
+/* --- Format the table --- */
+
+#coords-table>tbody>tr>td:nth-child(2) {
+  padding: 1rem 0.5rem 1rem 0rem;
+}
+
+#coords-table>tbody>tr>td:first-child {
+  padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+#coords-table>tbody>tr>th{
+  text-align: center;
+  border-color: white;
+}
+
+#rs-title-program{
+  padding-top: 0.5rem;
+}
+
+/* --- Format the about me description -- */
+#about-me{
+  padding-top: 0.5rem;
+}
